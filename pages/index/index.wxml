@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <dl>
+    <dt><image src="../images/pic.gif"/></dt>
+    <dd>
+    <p>狂想情人</p>
+    <p>作者：暗黑兔文化</p>
+    <p>渣男必须死</p>
+    </dd>
+  </dl>
+   <dl>
+    <dt><image src="../images/pic.gif"/></dt>
+    <dd><p>魔法剩女攻略计划</p>
+    <p>作者：曼玉动漫</p>
+    <p>变身魔法少女，再去恋爱 </p></dd>
+  </dl>
+   <dl>
+    <dt><image src="../images/pic.gif"/></dt>
+    <dd><p>狂想情人</p>
+    <p>作者：暗黑兔文化</p>
+    <p>渣男必须死</p></dd>
+  </dl>
+</view>

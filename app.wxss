@@ -1,0 +1,22 @@
+/**app.wxss**/
+.container{
+  font-size: 30rpx;
+}
+.container p{
+  display: block
+}
+.container dl{
+  display: flex;
+  width: 100%;
+  height:100rpx;
+  margin: 30rpx 20rpx;
+}
+.container dl dt{
+  width: 200rpx;
+  height:100rpx;
+  margin-right:20rpx; 
+}
+.container dl dt image{
+  width: 200rpx;
+  height:100rpx;
+}

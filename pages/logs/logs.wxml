@@ -1,0 +1,32 @@
+<!--logs.wxml-->
+<view class="container2">
+    <image src='../images/banner.gif'/>
+  <div class="dls">
+    <dl>
+      <dt><image src="../images/icon.gif"/></dt>
+      <dd>放松表</dd>
+    </dl>
+     <dl>
+      <dt><image src="../images/icon.gif"/></dt>
+      <dd>放松表</dd>
+    </dl>
+      <dl>
+      <dt><image src="../images/icon.gif"/></dt>
+      <dd>放松表</dd>
+    </dl>
+      <dl>
+      <dt><image src="../images/icon.gif"/></dt>
+      <dd>放松表</dd>
+    </dl>
+  </div>
+  <div class="ban">
+    <div>
+       <image src="../images/list.gif"/>
+        <p>狂想情人</p>
+    </div>
+   <div>
+       <image src="../images/list.gif"/>
+        <p>狂想情人</p>
+    </div>
+  </div>
+</view>

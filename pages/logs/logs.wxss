@@ -1,0 +1,27 @@
+
+.container2{
+  font-size: 30rpx;
+}
+.container2 .dls{
+  display: flex;
+}
+.container2 .dls dl{
+  margin: 10rpx  50rpx;
+}
+.container2 dl dt{
+  width: 80rpx;
+  height: 80rpx;
+   display:block
+}
+.container2 dl dt image{
+   width: 80rpx;
+  height: 80rpx
+}
+
+.ban{
+  display: flex;
+}
+.ban div image{
+  width: 500rpx;
+  height: 200rpx;
+}

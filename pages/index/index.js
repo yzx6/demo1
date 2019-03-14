@@ -110,21 +110,20 @@ Page({
       message
     })
   },
-  onReachBottom:function(){//上拉
-   var message=this.data.message
-   //console.log(this.data.message.length)
-    for (var i = 0; i < this.data.message.length;i++){
-      console.log(message[i])
-      // message.push({
-      //   img: "../images/pic.gif",
-      //   name: "仙宙",
-      //   author: "蜂群工作室" + this.data.id,
-      //   tag: "他的成仙之路"
-      // });
+  onReachBottom: function () {//上拉
+    var message = this.data.message
+    //console.log(this.data.message.length)
+    this.data.id++
+    for (var i = 0, len = 6; i < len; i++) {
+      message.push({
+        img: "../images/pic.gif",
+        name: "仙宙",
+        author: "蜂群工作室" + this.data.id,
+        tag: "他的成仙之路"
+      });
     }
-      console.log(message)
-    // this.setData({
-    //   message
-    // })
+    this.setData({
+      message
+    })
   }
 })

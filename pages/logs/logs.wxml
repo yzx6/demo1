@@ -1,6 +1,19 @@
 <!--logs.wxml-->
 <view class="container2">
-    <image src='../images/banner.gif'/>
+<swiper
+  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}"
+  class="swiperimg"
+>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+    <!-- <image src='../images/banner.gif'/> -->
   <div class="dls">
     <dl>
       <dt><image src="../images/icon.gif"/></dt>
@@ -19,6 +32,7 @@
       <dd>放松表</dd>
     </dl>
   </div>
+  <div class="look"><span class="one">精品佳作</span><span class="two" bindtap="jump">查看更多</span></div>
   <div class="ban">
     <div>
        <image src="../images/list.gif"/>

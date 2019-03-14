@@ -4,9 +4,12 @@
     "pages/index/index"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#f0c",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"#eee",
+    "onReachBottomDistance":50,
+    "enablePullDownRefresh":true
   }
 }

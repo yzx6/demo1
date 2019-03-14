@@ -19,3 +19,14 @@
 .usermotto {
   margin-top: 200px;
 }
+.container dl{
+  padding: 40rpx 0;
+}
+.container dl dt{
+  width: 300rpx;
+  height: 150rpx;
+}
+.container dl dt image{
+  width: 300rpx;
+  height: 150rpx;
+}
